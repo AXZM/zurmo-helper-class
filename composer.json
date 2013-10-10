@@ -1,0 +1,19 @@
+{
+    "name": "axzm/zurmo-lead",
+    "description": "Zurmo helper class for form integrations",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AXZM",
+            "email": "info@axzm.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zurmo\\": "src/"
+        }       
+    }
+}
