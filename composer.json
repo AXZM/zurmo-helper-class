@@ -1,12 +1,20 @@
 {
-    "name": "axzm/zurmo-lead",
+    "name": "axzm/zurmo-helper-class",
     "description": "Zurmo helper class for form integrations",
+    "keywords": ["zurmo", "crm", "wrapper"],
+    "homepage": "https://github.com/AXZM/zurmo-helper-class",
     "license": "MIT",
     "authors": [
         {
-            "name": "AXZM",
-            "email": "info@axzm.com"
-        }
+            "name": "Ross Edman",
+            "email": "ross@axzm.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Tyler Ferguson",
+            "email": "tyler@axzm.com",
+            "role": "Developer"
+        }      
     ],
     "require": {
         "php": ">=5.3.0"
