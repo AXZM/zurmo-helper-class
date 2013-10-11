@@ -1,4 +1,4 @@
-zurmo-helper-class
+Zurmo Helper Class
 ==================
 
-A helper class for form integrations for the CRM Zurmo
+[![Build Status](https://travis-ci.org/AXZM/zurmo-helper-class.png?branch=master)](https://travis-ci.org/AXZM/zurmo-helper-class)
