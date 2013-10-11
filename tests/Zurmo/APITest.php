@@ -4,14 +4,8 @@ use \Mockery as m;
 
 class APITest extends \PHPUnit_Framework_TestCase
 {
-	public function testTrueIsTrue()
+	public function testLogin()
 	{
-	    $foo = true;
-	    $this->assertTrue($foo);
+	    $api = new \Zurmo\REST('https://youraddress.com', 'username', 'password');
 	}
-
-    public function tearDown()
-    {
-        m::close();
-    }
 }

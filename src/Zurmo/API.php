@@ -66,6 +66,7 @@ class API
                 'ZURMO_AUTH_PASSWORD: ' . $this->password,
                 'ZURMO_API_REQUEST_TYPE: REST',
             );
+            
             $response = ApiRestHelper::createApiCall($this->url.'/app/index.php/zurmo/api/login', 'POST', $headers);
             
             $response = json_decode($response, true);
