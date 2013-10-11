@@ -1,17 +1,11 @@
 <?php
 
-use \Mockery as m;
+use \Zurmo\Rest;
 
 class RESTTest extends \PHPUnit_Framework_TestCase
 {
-	public function testTrueIsTrue()
+	public function testREST()
 	{
-	    $foo = true;
-	    $this->assertTrue($foo);
-	}
 
-    public function tearDown()
-    {
-        m::close();
-    }
+	}
 }

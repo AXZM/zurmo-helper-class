@@ -1,11 +1,14 @@
-<?php namespace Zurmo;
+<?php
 
 use \Mockery as m;
+use Zurmo\API;
 
 class APITest extends \PHPUnit_Framework_TestCase
 {
-	public function testLogin()
-	{
-	    $api = new \Zurmo\REST('https://youraddress.com', 'username', 'password');
-	}
+   function testLogin() {
+   		// mock API class
+   		$api = $this->getMockBuilder('\Zurmo\API')
+   			->setConstructorArgs(array('http://www.google.com', 'ross@axzm.com', 'password'))
+   			->getMock();
+   }
 }
